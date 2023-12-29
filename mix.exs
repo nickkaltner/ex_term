@@ -43,9 +43,9 @@ defmodule ExTerm.MixProject do
 
     [
       {:phoenix, "~> 1.7.10"},
-      {:phoenix_html, "~> 4.0"},
+      {:phoenix_html, "~> 3.3", override: true},
       {:phoenix_html_helpers, "~> 1.0"},
-      {:phoenix_live_reload, "~> 1.2", only: :dev},
+      {:phoenix_live_reload, "~> 1.4.1", only: :dev},
       {:phoenix_live_view, "~> 0.20"},
       {:phoenix_view, "~> 2.0"},
       {:match_spec, "~> 0.3.1"},
