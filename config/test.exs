@@ -10,7 +10,7 @@ config :ex_term, ExTermWeb.Endpoint,
 config :ex_term, :io_server, IEx.Server.Mock
 
 # Print only warnings and errors during test
-config :logger, level: :warn
+config :logger, level: :warning
 
 # Initialize plugs at runtime for faster test compilation
 config :phoenix, :plug_init_mode, :runtime

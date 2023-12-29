@@ -42,10 +42,12 @@ defmodule ExTerm.MixProject do
     in_dev = Mix.env() in @development
 
     [
-      {:phoenix, "~> 1.6.15"},
-      {:phoenix_html, "~> 3.0"},
+      {:phoenix, "~> 1.7.10"},
+      {:phoenix_html, "~> 4.0"},
+      {:phoenix_html_helpers, "~> 1.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:phoenix_live_view, "~> 0.18.3"},
+      {:phoenix_live_view, "~> 0.20"},
+      {:phoenix_view, "~> 2.0"},
       {:match_spec, "~> 0.3.1"},
       {:floki, ">= 0.30.0", only: :test},
       {:mox, "~> 1.0", only: :test},
